@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FF5320B6154B691813E50C2ADB63E0 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B973D291743ACE0058F9BCEC27A5245 /* UIColor-Expanded.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0825464504064E61949D35BB30BF13B3 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B5F64E0C11CE07A153B92EA596E5E3 /* SVProgressHUD-dummy.m */; };
+		0D98B594D4BB03AF92303D4768AE33E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		1D808280B942317DEAC1645B0BB25817 /* MAConfirmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B312347D739ABB148254A130E7E8B /* MAConfirmButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2721C99A18890C53F39BB9E6352CA6DB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD65F8C04D9EF6D44B9B43DB052E343A /* SVIndefiniteAnimatedView.m */; };
+		3398301AFDB47E99F79DF2DA70139666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		410D65B4A5BCC854CF956123E7DF3A0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		59026A0DD1018D84F88387C5FB0A3A6D /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A52FEB25F57B73A500E7E40E079E7B6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72975C7C969D2281BFB1300EC81F057D /* UIColor-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AB274EF06F0A289EE0FEA2B0D54C57 /* UIColor-Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16498983AC2038C1DC109B812E690D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		C1EEB4B360F0845F72D55ED03C30DF2B /* MAConfirmButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7B41BAB121B199622C4651B13B30E0 /* MAConfirmButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C427B5879C4F61D24B1C92E9B43A7DF8 /* Pods-inapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC452B895147998C8E3F7F117EAE6166 /* Pods-inapp-dummy.m */; };
+		F23DAF8F022BC4B80B3361B146FA19B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		F446BA2CADE594F1AF8F7D464D15F3D2 /* MAConfirmButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF4AE99236233DE4297D0B100D2F16 /* MAConfirmButton-dummy.m */; };
+		F9CE15FD0FF9E26C0BED8678676B4781 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F19C879F86B3B4F3D38C2736130511 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9CAA5070AD126D10915BB14C147F55 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6DAC7BE3B4C24A342EE36549638A8 /* SVProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90712FD5121E0550CC1A45C69C4CD956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4B6877E2806CD8932DC5ED099D4AB6;
+			remoteInfo = MAConfirmButton;
+		};
+		D709163B4CC169C70B0584F80945A238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51F39295FC5ADCAC69FF8BF8B7338625;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03077287FF5E56089BF5902935753960 /* Pods-inapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inapp.debug.xcconfig"; sourceTree = "<group>"; };
+		0A7B41BAB121B199622C4651B13B30E0 /* MAConfirmButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAConfirmButton.h; path = MAConfirmButton/MAConfirmButton.h; sourceTree = "<group>"; };
+		0B973D291743ACE0058F9BCEC27A5245 /* UIColor-Expanded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor-Expanded.m"; path = "MAConfirmButton/UIColor-Expanded.m"; sourceTree = "<group>"; };
+		0CCD16BC96BF69C090FFCA8590768184 /* Pods-inapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18F19C879F86B3B4F3D38C2736130511 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		19B5F64E0C11CE07A153B92EA596E5E3 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1B1B94512E1E8EFEB4B61B2A7AF0D53A /* libMAConfirmButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMAConfirmButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BFF4AE99236233DE4297D0B100D2F16 /* MAConfirmButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAConfirmButton-dummy.m"; sourceTree = "<group>"; };
+		49545D0E2678D555990AC3DEFF48702B /* MAConfirmButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAConfirmButton-prefix.pch"; sourceTree = "<group>"; };
+		4E1C41D96E1B74F8A050B95F83A35A8F /* MAConfirmButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAConfirmButton.xcconfig; sourceTree = "<group>"; };
+		6B8B312347D739ABB148254A130E7E8B /* MAConfirmButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAConfirmButton.m; path = MAConfirmButton/MAConfirmButton.m; sourceTree = "<group>"; };
+		768C8ED56DBFF910897765416E5614A7 /* Pods-inapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inapp-resources.sh"; sourceTree = "<group>"; };
+		7831750C76143E05E8D2A94D3219ACB3 /* Pods-inapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A52FEB25F57B73A500E7E40E079E7B6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		8ABA19BDD377C791C30D4E35554E6D1A /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8F48538C8C63DA192A3EB283101441AF /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		9F61A3B5D2F6FB793DADCC69C70CF41F /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD65F8C04D9EF6D44B9B43DB052E343A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC8BAA9E6C096917B94C687C12B26ACD /* libPods-inapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AB274EF06F0A289EE0FEA2B0D54C57 /* UIColor-Expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor-Expanded.h"; path = "MAConfirmButton/UIColor-Expanded.h"; sourceTree = "<group>"; };
+		CC452B895147998C8E3F7F117EAE6166 /* Pods-inapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inapp-dummy.m"; sourceTree = "<group>"; };
+		D5531C38DAF6BCAA29B33FD1B53B289E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		DE5DB3D6FA2E003E51D9B6B4EC771EA6 /* Pods-inapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inapp.release.xcconfig"; sourceTree = "<group>"; };
+		EAB6DAC7BE3B4C24A342EE36549638A8 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		EEB5CF29F64344DA27704B1D9A73618D /* Pods-inapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inapp-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065BF2797202DCCAE7124498C1DC524C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3398301AFDB47E99F79DF2DA70139666 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A63E420EE2D4FC96458952507DEE2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16498983AC2038C1DC109B812E690D4 /* Foundation.framework in Frameworks */,
+				410D65B4A5BCC854CF956123E7DF3A0A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF3C7BE7F3D500C769B63BCDF5B18B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23DAF8F022BC4B80B3361B146FA19B1 /* Foundation.framework in Frameworks */,
+				0D98B594D4BB03AF92303D4768AE33E7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1904AD967016E80D5AFC441D24C1B9F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65CFBF9A2BE100D039AFBA375D99FC91 /* Pods-inapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3B2B917D69A5B4262B98A0FB2ADAB330 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7A52FEB25F57B73A500E7E40E079E7B6 /* SVIndefiniteAnimatedView.h */,
+				AD65F8C04D9EF6D44B9B43DB052E343A /* SVIndefiniteAnimatedView.m */,
+				18F19C879F86B3B4F3D38C2736130511 /* SVProgressHUD.h */,
+				EAB6DAC7BE3B4C24A342EE36549638A8 /* SVProgressHUD.m */,
+				4224CC63804E4AD6322C47633A564EDE /* Resources */,
+				5A4887C5159A6C821C798E809EDF047F /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		4224CC63804E4AD6322C47633A564EDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5531C38DAF6BCAA29B33FD1B53B289E /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		531EB0F0A5E935FC56C4D745F7CB2498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B94512E1E8EFEB4B61B2A7AF0D53A /* libMAConfirmButton.a */,
+				BC8BAA9E6C096917B94C687C12B26ACD /* libPods-inapp.a */,
+				9F61A3B5D2F6FB793DADCC69C70CF41F /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4887C5159A6C821C798E809EDF047F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F48538C8C63DA192A3EB283101441AF /* SVProgressHUD.xcconfig */,
+				19B5F64E0C11CE07A153B92EA596E5E3 /* SVProgressHUD-dummy.m */,
+				8ABA19BDD377C791C30D4E35554E6D1A /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		65CFBF9A2BE100D039AFBA375D99FC91 /* Pods-inapp */ = {
+			isa = PBXGroup;
+			children = (
+				0CCD16BC96BF69C090FFCA8590768184 /* Pods-inapp-acknowledgements.markdown */,
+				7831750C76143E05E8D2A94D3219ACB3 /* Pods-inapp-acknowledgements.plist */,
+				CC452B895147998C8E3F7F117EAE6166 /* Pods-inapp-dummy.m */,
+				EEB5CF29F64344DA27704B1D9A73618D /* Pods-inapp-frameworks.sh */,
+				768C8ED56DBFF910897765416E5614A7 /* Pods-inapp-resources.sh */,
+				03077287FF5E56089BF5902935753960 /* Pods-inapp.debug.xcconfig */,
+				DE5DB3D6FA2E003E51D9B6B4EC771EA6 /* Pods-inapp.release.xcconfig */,
+			);
+			name = "Pods-inapp";
+			path = "Target Support Files/Pods-inapp";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				94EFCA873E158A2D7CE9E93C9F7C32F6 /* Pods */,
+				531EB0F0A5E935FC56C4D745F7CB2498 /* Products */,
+				1904AD967016E80D5AFC441D24C1B9F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94EFCA873E158A2D7CE9E93C9F7C32F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEECDBF2A44F489BF90C4A45F8AAEF /* MAConfirmButton */,
+				3B2B917D69A5B4262B98A0FB2ADAB330 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4DEECDBF2A44F489BF90C4A45F8AAEF /* MAConfirmButton */ = {
+			isa = PBXGroup;
+			children = (
+				0A7B41BAB121B199622C4651B13B30E0 /* MAConfirmButton.h */,
+				6B8B312347D739ABB148254A130E7E8B /* MAConfirmButton.m */,
+				C9AB274EF06F0A289EE0FEA2B0D54C57 /* UIColor-Expanded.h */,
+				0B973D291743ACE0058F9BCEC27A5245 /* UIColor-Expanded.m */,
+				FF28205A669D1EE3906072CB637CF09E /* Support Files */,
+			);
+			path = MAConfirmButton;
+			sourceTree = "<group>";
+		};
+		FF28205A669D1EE3906072CB637CF09E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1C41D96E1B74F8A050B95F83A35A8F /* MAConfirmButton.xcconfig */,
+				2BFF4AE99236233DE4297D0B100D2F16 /* MAConfirmButton-dummy.m */,
+				49545D0E2678D555990AC3DEFF48702B /* MAConfirmButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MAConfirmButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		798886AC50BA768C3AAFE4D7F4A8BA55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59026A0DD1018D84F88387C5FB0A3A6D /* SVIndefiniteAnimatedView.h in Headers */,
+				F9CE15FD0FF9E26C0BED8678676B4781 /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88E88EB73D890C29D1BED73A13E7D89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EEB4B360F0845F72D55ED03C30DF2B /* MAConfirmButton.h in Headers */,
+				72975C7C969D2281BFB1300EC81F057D /* UIColor-Expanded.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51F39295FC5ADCAC69FF8BF8B7338625 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFC9075B88DC7AF9260B823C9C8EC51 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				C593DC0FFA76E254E0F24F00D35A1C76 /* Sources */,
+				6FF3C7BE7F3D500C769B63BCDF5B18B5 /* Frameworks */,
+				798886AC50BA768C3AAFE4D7F4A8BA55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 9F61A3B5D2F6FB793DADCC69C70CF41F /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC4B6877E2806CD8932DC5ED099D4AB6 /* MAConfirmButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB71D88022C0185BE79561068BB1CCD /* Build configuration list for PBXNativeTarget "MAConfirmButton" */;
+			buildPhases = (
+				184DBF53D9B11803C64C44F90D13C3EC /* Sources */,
+				5A63E420EE2D4FC96458952507DEE2D8 /* Frameworks */,
+				E88E88EB73D890C29D1BED73A13E7D89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAConfirmButton;
+			productName = MAConfirmButton;
+			productReference = 1B1B94512E1E8EFEB4B61B2A7AF0D53A /* libMAConfirmButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9C99C67EB3B8CF51625F23FF2D2B1C2 /* Pods-inapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAC4A57CEDCB529A176287EAFB11E16 /* Build configuration list for PBXNativeTarget "Pods-inapp" */;
+			buildPhases = (
+				F0BE4DD350E65A8697B2F7E43474E8EF /* Sources */,
+				065BF2797202DCCAE7124498C1DC524C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAB29D1F8B0EFEE627468253754C2D6 /* PBXTargetDependency */,
+				7EFDEA1E34B68F1D835004D46B9ED9B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-inapp";
+			productName = "Pods-inapp";
+			productReference = BC8BAA9E6C096917B94C687C12B26ACD /* libPods-inapp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 531EB0F0A5E935FC56C4D745F7CB2498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4B6877E2806CD8932DC5ED099D4AB6 /* MAConfirmButton */,
+				E9C99C67EB3B8CF51625F23FF2D2B1C2 /* Pods-inapp */,
+				51F39295FC5ADCAC69FF8BF8B7338625 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184DBF53D9B11803C64C44F90D13C3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F446BA2CADE594F1AF8F7D464D15F3D2 /* MAConfirmButton-dummy.m in Sources */,
+				1D808280B942317DEAC1645B0BB25817 /* MAConfirmButton.m in Sources */,
+				03FF5320B6154B691813E50C2ADB63E0 /* UIColor-Expanded.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C593DC0FFA76E254E0F24F00D35A1C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2721C99A18890C53F39BB9E6352CA6DB /* SVIndefiniteAnimatedView.m in Sources */,
+				0825464504064E61949D35BB30BF13B3 /* SVProgressHUD-dummy.m in Sources */,
+				FD9CAA5070AD126D10915BB14C147F55 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE4DD350E65A8697B2F7E43474E8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C427B5879C4F61D24B1C92E9B43A7DF8 /* Pods-inapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAB29D1F8B0EFEE627468253754C2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MAConfirmButton;
+			target = CC4B6877E2806CD8932DC5ED099D4AB6 /* MAConfirmButton */;
+			targetProxy = 90712FD5121E0550CC1A45C69C4CD956 /* PBXContainerItemProxy */;
+		};
+		7EFDEA1E34B68F1D835004D46B9ED9B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 51F39295FC5ADCAC69FF8BF8B7338625 /* SVProgressHUD */;
+			targetProxy = D709163B4CC169C70B0584F80945A238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BAE4118F161D739B11BEB7ACFD9E3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5DB3D6FA2E003E51D9B6B4EC771EA6 /* Pods-inapp.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		102A5938155C2968BBFC9F5E806A6844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03077287FF5E56089BF5902935753960 /* Pods-inapp.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E43BB38773DFBE294DA7BB382436229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1C41D96E1B74F8A050B95F83A35A8F /* MAConfirmButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MAConfirmButton/MAConfirmButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5880A25FD88762FC9E94913F4BD10A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F48538C8C63DA192A3EB283101441AF /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98A2600B7252703870CE5529C524E104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F48538C8C63DA192A3EB283101441AF /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25E2903546F549B3BE717B1AE5391E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1C41D96E1B74F8A050B95F83A35A8F /* MAConfirmButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MAConfirmButton/MAConfirmButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAC4A57CEDCB529A176287EAFB11E16 /* Build configuration list for PBXNativeTarget "Pods-inapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102A5938155C2968BBFC9F5E806A6844 /* Debug */,
+				0BAE4118F161D739B11BEB7ACFD9E3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFC9075B88DC7AF9260B823C9C8EC51 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A2600B7252703870CE5529C524E104 /* Debug */,
+				5880A25FD88762FC9E94913F4BD10A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB71D88022C0185BE79561068BB1CCD /* Build configuration list for PBXNativeTarget "MAConfirmButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E43BB38773DFBE294DA7BB382436229 /* Debug */,
+				D25E2903546F549B3BE717B1AE5391E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
